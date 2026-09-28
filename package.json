@@ -1,0 +1,20 @@
+{
+	"name": "cmd-mod-xp",
+	"version": "0.1.0",
+	"description": "XP and levels for shipping in Command Code. tests, commits, pushes and deploys earn XP.",
+	"keywords": ["commandcode", "command-code", "mod", "xp", "levels", "fun"],
+	"license": "MIT",
+	"author": "Ali Arain",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aliarain/cmd-mod-xp.git"
+	},
+	"homepage": "https://github.com/aliarain/cmd-mod-xp#readme",
+	"bugs": {
+		"url": "https://github.com/aliarain/cmd-mod-xp/issues"
+	},
+	"files": ["index.ts", "README.md", "LICENSE"],
+	"commandcode": {
+		"mods": ["./index.ts"]
+	}
+}
